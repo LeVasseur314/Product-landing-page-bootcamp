@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel='stylesheet' href='styles.css' />
+    <meta charset="UTF-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Gaming Controller Landing Page</title>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id='header'>
+        <div class='logo'>
+          <img id='header-img' src='https://media.istockphoto.com/id/1200578521/vector/silhouette-of-a-game-joystick-with-wire-for-computer-games.jpg?s=612x612&w=0&k=20&c=An9MPJSADyiDy3DMduF3V0fC_-gCiEas1OT-xcnvsu0=' />
+        </div>
+        <div class='title'>Gaming Controllers</div>
+        <nav id='nav-bar'>
+          <ul>
+            <li><a class='nav-link' href='#form-stuff'>Email Form</a></li>
+            <li><a class='nav-link' href='#vid'>Video Demonstration</a></li>
+            <li><a class='nav-link' href='#pricing'>Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id='form-stuff'>
+        <h2>A description of different gaming controllers</h2>
+        <form id='form' action='https://www.freecodecamp.com/email-submit' >
+          <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <input 
+              name='submit'
+              id='submit'
+              type='submit'
+              class='button' 
+            />
+        </form>
+      </section>
+      <div class='container'>
+        <section id='vid'>
+          <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/2CO9q5fmdKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+      </div>
+      <div class='container'>
+        <section id='pricing'>
+          <div class='item'>
+            <div class='item-label'>Xbox Controller</div>
+            <h2>$55</h2>
+            <p class='details'>Designed by Microsoft</p>
+            <p class='details'>Most cost effective</p>
+          </div>
+          <div class='item'>
+            <div class='item-label'>Playstation Controller</div>
+            <h2>$75</h2>
+            <p class='details'>Designed by Sony</p>
+            <p class='details'>Most advanced hardware</p>
+          </div>
+          <div class='item'>
+            <div class='item-label'>Nintendo Switch Controller</div>
+            <h2>$70</h2>
+            <p class='details'>Designed by Nintendo</p>
+            <p class='details'>Most varied options for style</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
