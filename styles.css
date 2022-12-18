@@ -120,6 +120,12 @@ nav ul {
   background-color: #556
 }
 
+.item-describe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .item h2 {
   text-align: center;
   padding: 20
